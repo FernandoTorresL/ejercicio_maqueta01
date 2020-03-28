@@ -41,14 +41,28 @@ header nav ul {
 }
 
 main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column: 1;
 	font-size: 40px;
 	color: gray;
 }
 
 main span{
-	font-size: 80px;
+	font-size: 60px;
 	color: black;
 	font-weight: 600;
+}
+
+.main-logo {
+	grid-column: 2;
+	width: 75%;
+}
+
+.main-logo img {
+	grid-column: 2;
+	width: 500px;
+	height: 300px;
 }
 
 main button {
