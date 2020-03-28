@@ -10,17 +10,18 @@ a {
 	cursor: pointer;
 }
 
-header {
+header nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 18px;
 	width: 100%;
 	height: 60px;
-}
-
-header nav {
 	display: flex;
 	justify-content: flex-start;
 }
 
-header nav .nav-right-section {
+header nav ul {
+	grid-column: 1;
 	width: 250px;
 	height: auto;
 	display: flex;
@@ -29,9 +30,14 @@ header nav .nav-right-section {
 	align-items: center;
 }
 
-nav .nav-right-section a {
+.nav-right-section a {
 	margin-right: 10px;
 	color: pink;
+}
+
+.nav-left-section a {
+	align-items: flex-end;
+	color: gray;
 }
 
 main {
