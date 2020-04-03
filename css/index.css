@@ -26,31 +26,34 @@ header nav {
 	height: auto;
 	display: flex;
 	list-style: none;
-	margin-right: 10px;
+	margin: 20px 30px;
 	justify-content: flex-start;
+	justify-items: center;
 }
 
 header nav button {
-	grid-column: 1;
-	width: 250px;
-	height: auto;
-	display: flex;
 	list-style: none;
-	margin-top: 30px;
-	padding: 10px 10px 10px 10px;
 	font-size: 18px;
-	align-items: center;
 	color: black;
 	background-color: inherit;
 	border: none;
 	border-bottom: solid 2px lightpink;
-	padding: 0px 0px 30px;
+	padding: 20px 45px 30px 20px;
+}
+
+header nav .final_button {
+	display: flex;
+	list-style: none;
+	background-color: inherit;
+	border: none;
+	border-bottom: solid 2px lightpink;
+	padding: 20px 45px 30px 200px;
 }
 
 header nav button:hover {
 	color: #cc4477;
-	border-bottom: solid 5px;
-	padding: 0px 0px 30px;
+	border-bottom: solid 4px;
+	padding: 20px 45px 27px 20px;
 }
 
 .nav-left-section a {
