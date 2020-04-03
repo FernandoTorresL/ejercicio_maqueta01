@@ -1,7 +1,7 @@
 
-#Project to practice HTML, CSS
+# Project: Practice HTML, CSS
 
-##Description
+## Description
 
 Crear maqueta básica con despliegue en Github Pages
 
