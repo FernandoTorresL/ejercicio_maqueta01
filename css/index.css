@@ -91,12 +91,13 @@ a {
 	font-weight: 800;
 }
 
-.main-text {
-	font-size: 45px;
+.main-text2 {
+	font-size: 40px;
 }
 
-.main-text-bold{
-	font-size: 45px;
+.main-text2 .main-text-bold {
+	font-size: 40px;
+	color: palevioletred;
 }
 
 .logo {
