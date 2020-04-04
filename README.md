@@ -7,8 +7,8 @@ Crear maqueta básica con despliegue en Github Pages
 
 ### Proyecto terminado
 
-![Imgur](https://i.imgur.com/4PWL7gE.png)
+![Imgur](https://i.imgur.com/R888it4.png)
 
 ### Mobile
 
-![Imgur](https://i.imgur.com/mdi4Mag.png)
+![Imgur](https://i.imgur.com/FGFPmGk.png)
